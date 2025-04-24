@@ -9,11 +9,9 @@ The following guidelines apply to any method or function marked with the @mcp.to
 
 When this rule is applied, please remember to explicitly mention it.
 
-
 # Guidelines for working with Unreal Engine using MCP
 
-- We are using Unreal Engine 5.5.4, so be extremely cautious of using deprecated or outdated APIs, includes or practices.
-
+- We are using Unreal Engine 5.3.2, so be extremely cautious of using deprecated or outdated APIs, includes or practices.
 
 ## Coordinate System
 
@@ -36,16 +34,16 @@ Positive values are forward.
 
 Unreal Engine (UE) defaults to the following International System (SI) units for measurement:
 
-Quantity	Unit
-Distance/Length	Centimeters (cm)
-Mass	Kilograms (kg)
-Time	Minutes (min), Seconds (s)
-Angles	Degrees (deg)
-Speed/Velocity	Meters per Second (m / s)
-Temperature	Celsius (C)
-Force	Newtons (N)
-Torque	Newton Meters (N • m)
+Quantity Unit
+Distance/Length Centimeters (cm)
+Mass Kilograms (kg)
+Time Minutes (min), Seconds (s)
+Angles Degrees (deg)
+Speed/Velocity Meters per Second (m / s)
+Temperature Celsius (C)
+Force Newtons (N)
+Torque Newton Meters (N • m)
 
+# Misc
 
-# Misc.
 When performing MCP tool calls with Unreal Engine, always reference `.cursor/rules/unreal.mdc` for best practices.

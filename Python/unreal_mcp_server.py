@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import sys
 import warnings
+
 from unreal_mcp.server import mcp
+
 
 def main():
     warnings.warn(
@@ -18,9 +20,10 @@ def main():
         '      "args": ["--directory", "<path/to/repo>/Python", "run", "unreal_mcp_server"]\n'
         "    }\n  }\n}",
         DeprecationWarning,
-        stacklevel=2
+        stacklevel=2,
     )
     return mcp.run()
+
 
 if __name__ == "__main__":
     sys.exit(main())
